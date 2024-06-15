@@ -1,0 +1,12 @@
+image {
+    font-size: 80px;
+}
+
+.wrapper-game-item {
+    border: lightgray solid 1px;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 200px;
+}

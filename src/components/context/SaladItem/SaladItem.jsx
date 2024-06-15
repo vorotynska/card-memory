@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useReducer } from 'react';
 import './SaladItem.css';
 import UserContext from '../User/User'
 import { SaladContext } from '../SaladMaker/SaladMaker';

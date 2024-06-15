@@ -1,0 +1,5 @@
+.wrapper-game-summary {
+    border-top: black solid 1px;
+    display: flex;
+    padding: 25px;
+}
