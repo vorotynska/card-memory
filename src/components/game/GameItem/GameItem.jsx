@@ -3,12 +3,10 @@ import { useContext } from 'react';
 import { GameContext } from '../Game';
 
 export default function GameItem({ image, name }) {
-    const { setGame } = useContext(GameContext);
+    const { dispatch } = useContext(GameContext);
 
     function update() {
-        setGame({
-            name,
-        })
+        dispatch({ type: 'ADD', item: name });
     }
 
     function add({ name }) {

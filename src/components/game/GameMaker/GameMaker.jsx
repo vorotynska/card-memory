@@ -2,7 +2,7 @@ import GameBuilder from '../GameBuilder/GameBuilder';
 import './GameMaker.css';
 import GameSummary from '../GameSummary/GameSummary';
 
-export default function GameMaker() {
+export default function GameMaker({ shuffledIngredients }) {
     return (
         <>
             <h1 className="maker">
@@ -13,7 +13,7 @@ export default function GameMaker() {
             <p>
                 Get points by clicking on an image but don't click on any more than once!
             </p>
-            <GameBuilder />
+            <GameBuilder shuffledIngredients={shuffledIngredients} />
             <GameSummary />
         </>
     )
